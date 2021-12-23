@@ -1,0 +1,346 @@
+
+/* index.html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Popins', sans-serif;
+}
+body{
+    
+    background: #ede7f6;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    /* background: #333; */
+}
+.first-container{
+    height: 100px;
+    width: 100%;
+	margin: 0 auto;
+    /* background: #333; */
+}
+nav {
+    height: 100px;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.navbar-nav{
+    padding: 40px;
+}
+
+.logo{
+    height: 90px;
+    padding: 2px 50px;
+
+}
+.icon-bar{
+    background: darkorange;
+    padding: 2px;
+}
+
+.navbar-collapse ul li a:hover{
+    color: #000;
+    background-color: #f00;
+}
+.big-text{
+    font-size: 50px;
+    margin: 20px 0px;
+    color: darkorange;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: darkorange;
+    color: #fff;
+}
+a.btn-second{
+    background-color: transparent;
+    border: 1px solid darkorange;
+    color: #333;
+}
+.middle-container a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.banner-info, .banner-img{
+    margin: 30px 0;
+}
+.middle-container{
+    width: 100%;
+    top: 20%;
+	height: 700px;
+    padding: 150px;
+    /* background: #333; */
+}
+.middle-container h2,p{
+    color: #607d8b;
+}
+footer{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 30px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .sec{
+    margin-right: 30px;
+}
+footer .container .sec.about-us{
+    width: 40% ;
+}
+footer .container h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container h2:before
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer p{
+
+    color: #999;
+}
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+.sci li a:hover{
+    background: #f00;
+}
+.sci li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.quicklinks{
+    position: relative;
+    width: 25%;
+
+}
+.quicklinks ul li {
+    list-style: none;
+}
+.quicklinks ul li a{
+     color: #999;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+}
+.quicklinks ul li a:hover{
+    color: #fff;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+} 
+.container .info li a:hover{
+    color: #fff;
+}
+.copyrighttext{
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+@media (max-width: 991px) {
+    footer{
+        padding: 40px;
+
+    }
+    footer .container{
+        flex-direction: column ;
+    }
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.about-us,
+    .quicklinks
+    .contact
+    {
+        width: 100%;
+    }
+    .copyrighttext
+    {
+        padding: 8px 40px;
+
+    }
+}
+/* login.html*/
+section .middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+section .middle-container .formBx{
+    width: 50%;
+}
+section .middle-container .formBx h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+section .middle-container .formBx .inputBx{
+    margin-bottom: 20px;
+}
+section .middle-container .formBx .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+section .middle-container .formBx .inputBx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+section .middle-container .formBx .inputBx input[type="submit"]
+{
+    background-color: darkorange;
+    color: #fff;
+}
+section .middle-container .formBx .inputBx input[type="submit"]
+{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+section .middle-container .formBx .remember,.promotional{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .middle-container .formBx .privacy{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .middle-container .formBx .privacy .terms{
+    color: darkorange;
+}
+section .middle-container .formBx .inputBx p{
+    color: #607d8b;
+}
+section .middle-container .formBx .inputBx p a{
+    color: darkorange;
+}
+section .middle-container .formBx h3{
+    color: #607d8b;
+    text-align: center;
+    margin: 40px 0 10px;
+    font-weight: 500;
+}
+section .middle-container .formBx .social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+section .middle-container .formBx .social li{
+    list-style: none;
+}
+section .middle-container .formBx .social li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+section .middle-container .formBx .social li a:hover{
+    background: #f00;
+}

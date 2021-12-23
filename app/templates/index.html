@@ -1,0 +1,115 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ShoppingAdda</title>
+        <link rel="stylesheet" type="text/css" href="{% static "/css/style.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "/css/all.css" %}">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Font awesome cdn HTML -->
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-style">
+                <div class="first-container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html"><img class="logo" src="{% static "/images/logo.png" %}"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="middle-container">
+            <div class="row">
+                <div class="col-sm-6 banner-info" >
+                    <h2>BE ORIGNAL</h2>
+                    <p class="big-text">Best clothes for sale here...!!!</p>
+                    <p>The fashion industry is one of the fast-growing industries. After the growth of online shopping,
+                        fashion industry sales are reaching new heights.</p>
+                    <a class="btn btn-first" href="login.html">Login</a>
+                    <a class="btn btn-second" href="register.html">Register</a>
+                </div>
+
+                <div class="col-sm-6 banner-img" >
+                    <img src="{% static "/images/img01.jpg" %}" class="responsive" width="600" height="500">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="sec about-us">
+                    <h2>About Us</h2>
+                    <p>The fashion industry is one of the fast-growing industries.
+                        After the growth of online shopping, fashion industry sales are reaching new heights. 
+                        The fashion industry is one of the fast-growing industries.
+                        After the growth of online shopping, fashion industry sales are reaching new heights.  
+                    </p>
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy</i></a></li>
+                        <li><a href="#">Help</i></a></li>
+                        <li><a href="#">Terms &amp; Conditions</i></a></li>
+                        <li><a href="#">Contact</i></a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <span>
+                                5-7, Near Post Office<br>
+                                Vangalapudi, AP - 533287,<br>India
+                            </span>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-mobile-alt"></i></span>
+                            <p><a href="tel:9515724465">+91 9515724465</a><br>
+                            <a href="tel:9346318268">+91 9346318268</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="mailto:surendra151135@gmail.com">surendra151135@gmail.com</a></p>
+                        </li>
+                            
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrighttext">
+            <p>Copyright © 2021 ShoppingAdda. All Rights Reserved.</p>
+        </div>
+    </body>
+</html>
