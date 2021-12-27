@@ -8,6 +8,11 @@ __pycache__/
 
 # History
 .history/
+# Env files
+.env.dev
+.env.prod
+.env.prod.db
+
 # Distribution / packaging
 .Python
 build/
