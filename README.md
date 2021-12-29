@@ -1103,7 +1103,7 @@ $ ls
 $ cd <project-folder-name>
 ```
 After that add .env.prod and .env.prod.db because we ignore these file while adding this project into github
-Note: While adding .env.prod file please make sure that Allowed_Host=<public-ip-ec2Server>
+Note: While adding .env.prod file please make sure that Allowed_Host=(public-ip-ec2Server)
 ```bash
 DEBUG=0
 SECRET_KEY=change_me
@@ -1141,6 +1141,6 @@ sudo chmod +x entrypoint.prod.sh
 
 Now you can test the output with public ip of our ec2 server.
 
-1. Index file of Webpage at <public-ip>:1337/index
-2. Upload an image at <public-ip>:1337/
-3. Then, view the image at <publlic-ip>:1337/media/IMAGE_FILE_NAME.
+1. Index file of Webpage at (public-ip):1337/index
+2. Upload an image at (public-ip):1337/
+3. Then, view the image at (publlic-ip):1337/media/IMAGE_FILE_NAME.
