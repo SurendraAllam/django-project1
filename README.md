@@ -1055,7 +1055,8 @@ git add .
 git commit -m "Commit message"
 git push 
 ```
-## Deploy this project on EC2 Server
+# Deployment of this project on EC2 Server
+
 Create an ec2 server in AWS account
 And download the .pem file 
 open command propt and change directory to .pem file location 
