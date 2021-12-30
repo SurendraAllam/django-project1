@@ -1135,7 +1135,7 @@ ERROR: for web  Cannot start service web: OCI runtime create failed: container_l
 ERROR: Encountered errors while bringing up the project.
 ```
 
-lets change the permitions of `entrypoint.prod.sh`
+lets change the permissions of `entrypoint.prod.sh`
 ```bash
 sudo chmod +x entrypoint.prod.sh
 ```
